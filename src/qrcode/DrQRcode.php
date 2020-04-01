@@ -22,7 +22,7 @@ class DrQRcode
      */
     static function png($content, $path) {
         // 引入phpqrcode类
-        include_once './phpqrcode.php';
+        include_once 'phpqrcode.php';
         // 路径生成
         $path = DrFile::drMkdirByDate($path);
         // 图片生成
