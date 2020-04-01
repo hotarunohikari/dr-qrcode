@@ -1,0 +1,63 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "e70d351f5b467f72403875a145ef4355",
+    "packages": [
+        {
+            "name": "hotarunohikari/dr-file",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hotarunohikari/dr-file.git",
+                "reference": "f7da6141e58c8070f34300a316194174b29167a0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hotarunohikari/dr-file/zipball/f7da6141e58c8070f34300a316194174b29167a0",
+                "reference": "f7da6141e58c8070f34300a316194174b29167a0",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": ">=7.0.0"
+            },
+            "type": "composer",
+            "autoload": {
+                "psr-4": {
+                    "dr\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "hotarunohikari",
+                    "email": "1445598659@qq.com"
+                }
+            ],
+            "description": "file helper",
+            "time": "2020-04-01T06:48:20+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.0.0"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}
